@@ -3,13 +3,10 @@
     width: 100vw;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, auto);
+    grid-template-rows: repeat(3, auto);
     grid-template-areas:
     "header header header header header header"
     "banner banner banner banner banner banner"
-    ".. sect1 sect1 sect1 sect1 ."
-    ".. sect2 sect2 sect2 sect2 ."
-    ".. sect3 sect3 sect3 sect3 ."
     "footer footer footer footer footer footer";
 }
 
@@ -32,32 +29,8 @@ header{
     align-items: center;
 }
 
-#sect1{
-    grid-area: sect1;
-    /* background-color: #000; */
-    /* color: #fff; */
-    text-align: center;
-    height: 300px;
-    display: flex;
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
-}
-
-#sect2{
-    grid-area: sect2;
-    /* background-color: #000; */
-    /* color: #fff; */
-    text-align: center;
-    height: 300px;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#sect3{
-    grid-area: sect3;
+#sect{
+    grid-area: sect;
     /* background-color: #000; */
     /* color: #fff; */
     text-align: center;
@@ -74,4 +47,15 @@ footer{
     /* color: #fff; */
     height: 100px;
     /* text-align: center; */
+}
+
+
+.cont{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:
+    "header header header header header header"
+    "sect sect sect sect sect sect"
+    "footer footer footer footer footer footer";
 }
