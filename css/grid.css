@@ -6,7 +6,7 @@
     grid-template-rows: repeat(3, auto);
     grid-template-areas:
     "header header header header header header"
-    "banner banner banner banner banner banner"
+    ". banner banner banner banner ."
     "footer footer footer footer footer footer";
 }
 
@@ -23,7 +23,7 @@ header{
     /* color: #fff; */
     /* text-align: center; */
     /* height: 500px; */
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
