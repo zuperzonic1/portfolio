@@ -2,16 +2,17 @@
 .container{
     width: 100vw;
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(3, auto);
     grid-template-areas:
-    "header header header header header header"
-    ". banner banner banner banner ."
-    "footer footer footer footer footer footer";
+    "header header header header header header header header"
+    ". . banner banner banner banner . ."
+    "footer footer footer footer footer footer footer footer";
 }
 
 header{
     grid-area: header;
+    height: 100px;
     /* background-color: #000; */
     /* color: #fff; */
     /* text-align: center; */

@@ -20,16 +20,7 @@ body{
 }
 
 h1{
-    font-size: 3.5rem;
-    font-weight: 00;
-    margin: 0;  
-    letter-spacing: 12px;
-    padding: 0;
-    color: #ebebeb;
-    text-align: left;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-shadow: 0 0 10px #7c7979;
-    float: right;
+    
     /* margin-right: 30px; */
 }
 
@@ -46,15 +37,6 @@ p{
     float: right;
     margin-right: 40px;
 }
-/* .banner{} */
-
-.bannerimg{
-    display: flex;
-    justify-content: center;
-    width: 80vw;
-    height: auto;
-}
-
 li{
     list-style: none;
     text-align: center;
@@ -78,6 +60,19 @@ h2{
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     /* text-shadow: 0 0 10px #7c7979; */
+}
+
+#title1{
+    font-size: 2.5rem;
+    font-weight: 00;
+    margin: 0;  
+    letter-spacing: 12px;
+    padding: 0;
+    color: #ebebeb;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* text-shadow: 0 0 10px #7c7979; */
+    float: right;
 }
 
 
@@ -112,4 +107,9 @@ header{
 
 li{
     margin-left: 25px;
+}
+
+#footer{
+    font-size: 1.0rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
